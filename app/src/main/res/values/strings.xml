@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CASA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="bajas_fragment">BAJAS</string>
+    <string name="fichas_fragment">Generación fichas de pago</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ingles_fragment">Agendar TOEFL/BULLATS</string>
+    <string name="constancias_fragment">Constancias</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

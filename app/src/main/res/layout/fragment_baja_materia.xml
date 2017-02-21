@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruiz.alex.helloworld.BajaMateria">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="319dp">
+
+        <TextView
+            android:text="Baja materias"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:text="1.Acudir con tu director de carrera o programa.\n2.Ir a CASA con:\na)Carta explicando motivos
+b)Copia de identificación oficial del responsable de pago\nc)Credencial del alumno\n3.Confirmar con tesoreria el porcentaje de pago por el tramite de baja de la materia\n4.Asegurar que el proceso de baja de materia ha concluido antes de
+dejar de ir a clases"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:fontFamily="sans-serif"
+            android:maxLines="15"
+            android:lines="15"
+            android:textSize="17sp"
+            android:layout_gravity="top|center"
+            android:layout_width="359dp"
+            android:layout_height="264dp"
+            android:id="@+id/textView11" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,76 @@
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.ruiz.alex.helloworld.InglesFragment">
+
+                <!-- TODO: Update blank fragment layout -->
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:text="Agendar examen inglés"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView2"
+                        android:fontFamily="sans-serif"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:text="En línea"
+                        android:layout_width="match_parent"
+                        android:fontFamily="sans-serif"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="left"
+                        android:layout_height="44dp"
+                        android:id="@+id/textView6"
+                        android:paddingTop="10dp" />
+
+                    <TextView
+                        android:text="1.Revisar fechas de examen en tu agenda académica\n2.Ingresar al sistema de trámites en línea\n3.Solicitar tu examen indicando la fecha y motivo del examen.\n4.Recibir confirmación de disponibilidad de examen.\n5.Imprimir ficha de pago y realizar el pago. (El costo del examen es $600.00).\n6.Concluye tu pedido en el sistem de trámites en línea, adjuntando tu ficha de pago.\n7.Recibir confirmación con el salón y la hora en donde deberás presentarte para aplicar tu examen.\n8.Presentarte 10 min antes del examen con tu credencial y ficha de pago original."
+                        android:layout_width="match_parent"
+                        android:fontFamily="sans-serif"
+                        android:maxLines="20"
+                        android:lines="20"
+                        android:textSize="18sp"
+                        android:layout_height="355dp"
+                        android:id="@+id/textView8"
+                        android:paddingTop="0dp" />
+
+                    <TextView
+                        android:text="Presencial"
+                        android:layout_width="match_parent"
+                        android:fontFamily="sans-serif"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="left"
+                        android:layout_height="44dp"
+                        android:id="@+id/textView9"
+                        android:paddingTop="10dp" />
+
+                    <TextView
+                        android:text="1.Revisar las fechas de examen en tu agenda académica.\n2.Solicitar tu examen de manera presencial en CASA, indicando la fecha y motivo del examen.\n3.Recibir confirmación de disponibilidad de examen.\n4.Imprimir ficha de pago y realizar el pago. (El costo del examen es $600.00)\n5.Acudir a CASA para finalizar el trámite. (El Ejecutivo de Atención te indicará el salón y la hora en donde deberás presentarte para aplicar tu examen).
+\n6.Presentarte 10 min antes del examen con tu credencial y ficha de pago original."
+                        android:layout_width="match_parent"
+                        android:fontFamily="sans-serif"
+                        android:maxLines="20"
+                        android:lines="20"
+                        android:textSize="18sp"
+                        android:layout_height="355dp"
+                        android:id="@+id/textView10" />
+                </LinearLayout>
+            </ScrollView>
+
+        </FrameLayout>

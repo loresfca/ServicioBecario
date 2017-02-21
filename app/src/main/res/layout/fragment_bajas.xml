@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_frame"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruiz.alex.helloworld.BajasFragment">
+
+    <Button
+        android:text="Materia"
+        android:id="@+id/button12"
+        android:layout_weight="0.29"
+        android:layout_height="wrap_content"
+        android:layout_width="192.5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:fontFamily="sans-serif"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#0000CD"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"
+        />
+
+    <Button
+        android:text="Temporal"
+        android:id="@+id/button15"
+        android:layout_weight="0.31"
+        android:layout_height="wrap_content"
+        android:layout_width="192.5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:fontFamily="sans-serif"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#0000CD"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+
+        />
+
+    <Button
+        android:text="Transferencia"
+        android:id="@+id/button16"
+        android:layout_weight="0.29"
+        android:layout_gravity="top|left"
+        android:layout_height="wrap_content"
+        android:layout_width="192.5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:fontFamily="sans-serif"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#0000CD"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="70dp"
+        />
+
+    <Button
+        android:text="Definitiva"
+        android:id="@+id/button17"
+        android:layout_weight="0.38"
+        android:layout_height="wrap_content"
+        android:layout_width="192.5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:fontFamily="sans-serif"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#0000CD"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="200dp"
+        />
+
+</FrameLayout>

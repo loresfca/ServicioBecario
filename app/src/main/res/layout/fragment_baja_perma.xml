@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruiz.alex.helloworld.BajaPerma">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Baja Permanente"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12" />
+
+            <TextView
+                android:text="1.Acudir con tu director de carrera o programa\n2.Ir al área de éxito académico ubicada
+    en Mezzanine 1 de DAE\n3.Ir a CASA con:\na)Carta explicando motivos de baja con datos completos\nb)Copia de identificación oficial del responsable de pago\nc)Credencial del alumno\n4.Revisar no tener adeudo en bilbioteca y/o deportes\n5.Confirmar
+    con tesoreria no tener ningun adeudo.\n6.Recoger tus documentos dos días después de cumplir los puntos anteriores
+    "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:fontFamily="sans-serif"
+                android:maxLines="30"
+                android:lines="30"
+                android:textSize="17sp"
+                android:layout_gravity="top|center"
+                android:layout_width="365dp"
+                android:layout_height="323dp"
+                android:id="@+id/textView13" />
+
+            <TextView
+                android:text="Para tramitar equivalencias necesitas:\na)Certificado de estudios parcial legalizado(este se entrega de 6 a 8 semanas despues)\nb)Presentar recibo de pago\nPara tramitar Cardex:\na)Realizar el pago\nb)Acuidar a CASA con ficha de pago\nc)Firmar impresion de tarjeta plan\nd)Recoger tu CARDEX 4 dias habiles despues"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:fontFamily="sans-serif"
+                android:maxLines="30"
+                android:layout_gravity="top|center"
+                android:lines="30"
+                android:textSize="17sp"
+                android:id="@+id/textView14" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

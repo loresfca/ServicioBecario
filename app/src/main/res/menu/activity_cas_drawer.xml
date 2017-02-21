@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_constancias"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Constancias" />
+        <item
+            android:id="@+id/nav_fichas_pago"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Generación de fichas de pago" />
+        <item
+            android:id="@+id/nav_examen_ingles"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Agendar TOEFL/Bullats" />
+        <item
+            android:id="@+id/nav_bajas"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Bajas" />
+
+    </group>
+
+
+</menu>

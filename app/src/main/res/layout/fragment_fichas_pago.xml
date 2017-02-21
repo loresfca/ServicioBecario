@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruiz.alex.helloworld.FichasPagoFragment"
+    android:background="@android:color/darker_gray">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:background="@android:color/background_light"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Generar fichas de pago"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="top|center" />
+
+                <TextView
+                    android:text=" 1.Ingresa a MiTec."
+                    android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:maxLines="20"
+                    android:lines="20"
+                    android:textSize="18sp"
+                    android:layout_height="34dp"
+                    android:id="@+id/textView8" />
+
+                <TextView
+                    android:text="2.Da clic en Tienda Virtual."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView18" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:src="@drawable/i1"
+                    android:id="@+id/imageView3" />
+
+                <TextView
+                    android:text="3.Busca el concepto en la barra superior\n y presiona 'buscar'."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView20" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/i2"
+                    android:id="@+id/imageView4" />
+
+                <TextView
+                    android:text="4.Presiona agregar al carrito."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView21" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/i3"
+                    android:id="@+id/imageView5" />
+
+                <TextView
+                    android:text="5. Ingresa a tu carrito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView23" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/i4"
+                    android:id="@+id/imageView6" />
+
+                <TextView
+                    android:text="6. Selecciona la forma de pago y presiona comprar."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView22" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/i5"
+                    android:id="@+id/imageView7" />
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+</FrameLayout>
