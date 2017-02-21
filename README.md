@@ -18,5 +18,8 @@
 ### Bajas 
 * (Listo)
 
-### Agendar Examen TOEFL *(Listo, revisar redacción)
+### Agendar Examen TOEFL 
+
+* (Listo, revisar redacción)
+
 ### Cuotas de Servicios Escolares
