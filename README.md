@@ -3,6 +3,7 @@
 ### Retiro de Documentos por Graduación
 ### Constancias 
 * (completar con las imágenes de tres constancias)
+
 ### CARDEX Y TRANSCRIPT 
 ### Solicitud de Examen de última materia
 ### Datos Generales del Alumno
