@@ -14,7 +14,9 @@
 * Permiso de Verano
 * Permiso para cursar semestre en otro campus
 * Transferencia a otro campus
+
 ### Bajas 
 * (Listo)
+
 ### Agendar Examen TOEFL *(Listo, revisar redacción)
 ### Cuotas de Servicios Escolares
