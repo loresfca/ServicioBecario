@@ -2,14 +2,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context="com.ruiz.alex.helloworld.BajaTransferencia">
 
     <!-- TODO: Update blank fragment layout -->
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></LinearLayout>
+        android:layout_height="match_parent">
 
     <TextView
         android:text="Transferencia"
@@ -21,9 +24,17 @@
         android:id="@+id/textView16" />
 
     <TextView
-        android:text="1.Acudir con tu director de carrera o programa\n2.Ir al área de éxito académico ubicada en Mezzanine 1 de DAE\n3.Ir a CASA con:\na)Carta explicando motivos de baja con datos completos\nb)Copia de identificación oficial del responsable de pago\nc)Credencial del alumno\n4.Revisar no tener adeudo en bilbioteca y/o deportes\n5.Confirmar con tesoreria no tener ningun adeudo.\n6.Recoger tus documentos dos dias despues de cumplir los puntos anteriores
-    "
+        android:text="\n1.Acudir con tu director de carrera o programa\n\n2.Ir al área de éxito académico ubicada en Mezzanine 1 de DAE\n\n3.Ir a CASA con:\n\ta)Carta explicando motivos de baja con datos completos\n\tb)Copia de identificación oficial del responsable de pago\n\tc)Credencial del alumno
+        \n\n4.Revisar no tener adeudo en bilbioteca y/o deportes\n\n5.Confirmar con tesoreria no tener ningun adeudo.\n\n6.Recoger tus documentos dos dias despues de cumplir los puntos anteriores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView17" />
+        android:id="@+id/textView17"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:fontFamily="sans-serif"
+        android:maxLines="30"
+        android:layout_gravity="top|center"
+        android:lines="30"
+        android:textSize="17sp"/>
+    </LinearLayout>
+    </ScrollView>
 </FrameLayout>

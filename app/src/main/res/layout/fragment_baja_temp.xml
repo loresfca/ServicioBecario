@@ -2,9 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context="com.ruiz.alex.helloworld.BajaTemp">
 
     <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -20,9 +24,10 @@
             android:textColor="@android:color/background_dark" />
 
         <TextView
-            android:text="1.Acudir con tu director de carrera o programa\n2.Ir a CASA con:\na)Carta explicando motivos de baja con datos completos\nb)Copia de identificación oficial del responsable de pago\nc)Credencial del alumno\n3.Revisar no tener adeudo en bilbioteca y/o deportes\n4.Tres dias después de haber terminado el trámite, se entregan documentos en CASA"
+            android:text="1.Acudir con tu director de carrera o programa\n\n2.Ir a CASA con:\n\ta)Carta explicando motivos de baja con datos completos\n\tb)Copia de identificación oficial del responsable de pago\n\tc)Credencial del alumno
+            \n\n3.Revisar no tener adeudo en bilbioteca y/o deportes\n\n4.Tres dias después de haber terminado el trámite, se entregan documentos en CASA"
             android:layout_width="match_parent"
-            android:layout_height="464dp"
+            android:layout_height="500dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:fontFamily="sans-serif"
             android:maxLines="30"
@@ -32,5 +37,5 @@
             android:id="@+id/textView15" />
 
     </LinearLayout>
-
+</ScrollView>
 </FrameLayout>

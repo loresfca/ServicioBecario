@@ -15,12 +15,12 @@
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_cas"
-        app:menu="@menu/activity_cas_drawer" />
+        app:menu="@menu/activity_cas_drawer"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
     <FrameLayout
         android:background="@android:color/background_light"
         android:paddingBottom="10dp"
