@@ -3,75 +3,111 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_02c75e464fbb0a716e46c31f41219a4364d2e08e/classes.dex" />
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_c515c26d1e279e029647f22f2ee904cccff9f374/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_a781f61e75180ebf5b1b34c5d7695b55279c71cf/classes.dex" />
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_477cb7410b295a0fd25b55948977a4b79a261822/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_4b69c62aba7d21c54ffb1fa4c64f13b6146f1742/classes.dex" />
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_f46dea710e93c676a8692565b519edb6b85a4598/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_8a32bc12ca01a318ef45503ac75e5a60aef7641f/classes.dex" />
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_af4fbbc6fda9b435e9c0902691f7af6fc34aa585/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_3dd41aafa6e7e81dd084e63755bf374d561f62c6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_8a566d85d15411ff9264794155b211fe25fb32df/classes.dex" />
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_40ff9bf88d59f7e8d82b64039f2cf1104f4e59d3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_e280945fd6910cf17d432b11c715004c114f6d43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_9fcd6933eb309639a25e94b268321c0cc21c10f2/classes.dex" />
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_8cee156b5182e6ca221bc0f27c9144ab78222f42/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_d19e00abea2ff35810e4766a94a24e9522d84d5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d27d83bc2b8e244d84024e6479623135da6f102e">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b5abdff46c27e0b13bd4c04c4c34a845b33d378a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_d49f9b8d50088125b63c1b9757bad762e99d51a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_7e2488a1494e389c69ed0074e2187b15d7e249fc/classes.dex" />
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_4326e1c915d03b762cfd4401fea99541c0341dc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_beefa387c39c5cd6795aad6b217f3f5068875d67/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -80,61 +116,25 @@
         optimize="true"
         revision="25.0.2"
         sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_04282d79bfc1db614bd104f39773b13bb44ebfc8/classes.dex" />
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_04282d79bfc1db614bd104f39773b13bb44ebfc8/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c037dc24c589bc8c89414aef0daf59b4047078b1">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c8fc254c8057129b3211ea65a84fd400b36fd2a6/classes.dex" />
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_b118ee195a48309062880a66db19752c090d6407/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_a4d14eefb213aaf1fd7bf8ba2c9863cec54da346/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca796f8aff4524c41aaacae43f2fd65f9fe509e9">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2ede934c530c7a2072a7b6335b378e57549c7482/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_b90579092dbf61bd6f5123f4ce6c01c504afa281/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_396b78060100e929ca2a4fdccf7b153ad83a7a10/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/Users/Carly/Downloads/HelloWorld/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_0e0fc62b3e18441b52449b354de6270a213db620/classes.dex" />
+        sha1="a2c2d200d1fb2d4808c9a95cf044e0efd34b6fda">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eaa4f391d32192c08ad4c91a534590376e7bfe00/classes.dex" />
     </item>
 
 </items>

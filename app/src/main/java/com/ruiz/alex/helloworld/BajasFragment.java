@@ -15,6 +15,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
+import static java.lang.System.console;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -34,6 +36,10 @@ public class BajasFragment extends Fragment implements View.OnClickListener{
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private Button button;
+    private Button button1;
+    private Button button2;
+    private Button button3;
 
     private OnFragmentInteractionListener mListener;
 
@@ -79,8 +85,15 @@ public class BajasFragment extends Fragment implements View.OnClickListener{
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_bajas, container, false);
-        Button button= (Button) view.findViewById(R.id.button12);
+        button= (Button) view.findViewById(R.id.button12);
+        button1= (Button) view.findViewById(R.id.button15);
+        button2= (Button) view.findViewById(R.id.button16);
+        button3= (Button) view.findViewById(R.id.button17);
+
         button.setOnClickListener(this);
+        button1.setOnClickListener(this);
+        button2.setOnClickListener(this);
+        button3.setOnClickListener(this);
         return view;
     }
 
@@ -93,6 +106,7 @@ public class BajasFragment extends Fragment implements View.OnClickListener{
 
     @Override
     public void onAttach(Context context) {
+        System.out.println(context.getClass());
         super.onAttach(context);
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
@@ -111,8 +125,37 @@ public class BajasFragment extends Fragment implements View.OnClickListener{
     @Override
     public void onClick(View v) {
         int id=v.getId();
+        button.setVisibility(View.INVISIBLE);
+        button1.setVisibility(View.INVISIBLE);
+        button2.setVisibility(View.INVISIBLE);
+        button3.setVisibility(View.INVISIBLE);
         if (id==R.id.button12){
+
             Fragment fragment = new BajaMateria();
+            FragmentManager fragmentManager = getFragmentManager();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame, fragment)
+                    .commit();
+        }
+        if (id==R.id.button15){
+
+            Fragment fragment = new BajaTemp();
+            FragmentManager fragmentManager = getFragmentManager();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame, fragment)
+                    .commit();
+        }
+        if (id==R.id.button16){
+
+            Fragment fragment = new BajaTransferencia();
+            FragmentManager fragmentManager = getFragmentManager();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame, fragment)
+                    .commit();
+        }
+        if (id==R.id.button17){
+
+            Fragment fragment = new BajaPerma();
             FragmentManager fragmentManager = getFragmentManager();
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame, fragment)

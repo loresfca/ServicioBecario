@@ -22,7 +22,8 @@ import android.widget.TextView;
 public class CASA extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, BajasFragment.OnFragmentInteractionListener,
         FichasPagoFragment.OnFragmentInteractionListener, ConstanciasFragment.OnFragmentInteractionListener,
-        InglesFragment.OnFragmentInteractionListener {
+        InglesFragment.OnFragmentInteractionListener, BajaMateria.OnFragmentInteractionListener, BajaPerma.OnFragmentInteractionListener,
+        BajaTemp.OnFragmentInteractionListener,BajaTransferencia.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
