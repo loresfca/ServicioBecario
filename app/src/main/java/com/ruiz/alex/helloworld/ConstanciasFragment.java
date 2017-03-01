@@ -4,9 +4,13 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.test.suitebuilder.TestMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
 
 
 /**
@@ -17,7 +21,7 @@ import android.view.ViewGroup;
  * Use the {@link ConstanciasFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ConstanciasFragment extends Fragment {
+public class ConstanciasFragment extends Fragment implements View.OnClickListener {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -26,7 +30,7 @@ public class ConstanciasFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-
+    private TextView back;
     private OnFragmentInteractionListener mListener;
 
     public ConstanciasFragment() {
@@ -39,7 +43,7 @@ public class ConstanciasFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ConstanciasFragment.
+     * @return A new instance of fragment BajaMateria.
      */
     // TODO: Rename and change types and number of parameters
     public static ConstanciasFragment newInstance(String param1, String param2) {
@@ -64,7 +68,12 @@ public class ConstanciasFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_constancias, container, false);
+        View view= inflater.inflate(R.layout.fragment_constancias, container, false);
+
+        back= (TextView) view.findViewById(R.id.ficha);
+        back.setClickable(true);
+        back.setOnClickListener(this);
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -90,7 +99,16 @@ public class ConstanciasFragment extends Fragment {
         super.onDetach();
         mListener = null;
     }
+    public void onClick(View v) {
+        int id=v.getId();
+        back.setVisibility(View.INVISIBLE);
+        Fragment fragment = new FichasPagoFragment();
+        FragmentManager fragmentManager = getFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.content_frame, fragment)
+                .commit();
 
+    }
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
@@ -105,4 +123,5 @@ public class ConstanciasFragment extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
 }

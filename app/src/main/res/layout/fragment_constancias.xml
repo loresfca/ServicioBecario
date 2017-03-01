@@ -46,7 +46,16 @@
                     android:layout_height="44dp"
                     android:id="@+id/textView8" />
                 <TextView
-                    android:text="2. Imprimir tu ficha de pago  y realizarlo ($25.00)."
+                    android:text="2. Imprimir tu ficha de pago "
+                    android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:maxLines="20"
+                    android:lines="20"
+                    android:textSize="18sp"
+                    android:layout_height="44dp"
+                    android:id="@+id/ficha" />
+                <TextView
+                    android:text="y realizar el pago correspondiente ($25.00)."
                     android:layout_width="match_parent"
                     android:fontFamily="sans-serif"
                     android:maxLines="20"
@@ -54,6 +63,7 @@
                     android:textSize="18sp"
                     android:layout_height="44dp"
                     android:id="@+id/textView9" />
+
                 <TextView
                     android:text="3. Solicitar tu constancia ya sea a través del sistema en línea (se entrega en 2 o 3 días hábiles después de recibir la confirmación de solicitud) o presencialmente (se entrega inmediatamente)."
                     android:layout_width="match_parent"
