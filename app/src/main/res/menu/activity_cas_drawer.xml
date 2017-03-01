@@ -3,6 +3,10 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_casa"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="CASA" />
+        <item
             android:id="@+id/nav_constancias"
             android:icon="@drawable/ic_menu_manage"
             android:title="Constancias" />
@@ -16,8 +20,40 @@
             android:title="Agendar TOEFL/Bullats" />
         <item
             android:id="@+id/nav_bajas"
-            android:icon="@drawable/ic_menu_camera"
             android:title="Bajas" />
+
+        <item
+            android:id="@+id/nav_cardex"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Cardex y transcript" />
+        <item
+            android:id="@+id/nav_sol_examen"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Solicitud de examen de última materia" />
+        <item
+            android:id="@+id/nav_datos"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Datos generales del alumno" />
+        <item
+            android:id="@+id/nav_reingreso"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Solicitud de Reingreso" />
+        <item
+            android:id="@+id/nav_calis"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Historia académica" />
+        <item
+            android:id="@+id/nav_cer"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Certificado Parcial Legalizado" />
+        <item
+            android:id="@+id/nav_per"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Permisos y Transferencias" />
+        <item
+            android:id="@+id/nav_cuotas"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Cuotas de Servicios Escolares" />
 
     </group>
 

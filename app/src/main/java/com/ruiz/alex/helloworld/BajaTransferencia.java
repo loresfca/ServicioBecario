@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -17,7 +19,7 @@ import android.view.ViewGroup;
  * Use the {@link BajaTransferencia#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class BajaTransferencia extends Fragment {
+public class BajaTransferencia extends Fragment implements View.OnClickListener {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -26,7 +28,7 @@ public class BajaTransferencia extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-
+    private Button back;
     private OnFragmentInteractionListener mListener;
 
     public BajaTransferencia() {
@@ -39,7 +41,7 @@ public class BajaTransferencia extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment BajaTransferencia.
+     * @return A new instance of fragment BajaMateria.
      */
     // TODO: Rename and change types and number of parameters
     public static BajaTransferencia newInstance(String param1, String param2) {
@@ -64,7 +66,11 @@ public class BajaTransferencia extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_baja_transferencia, container, false);
+        View view= inflater.inflate(R.layout.fragment_baja_transferencia, container, false);
+
+        back= (Button) view.findViewById(R.id.back);
+        back.setOnClickListener(this);
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -90,7 +96,16 @@ public class BajaTransferencia extends Fragment {
         super.onDetach();
         mListener = null;
     }
+    public void onClick(View v) {
+        int id=v.getId();
+        back.setVisibility(View.INVISIBLE);
+        Fragment fragment = new BajasFragment();
+        FragmentManager fragmentManager = getFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.content_frame, fragment)
+                .commit();
 
+    }
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
@@ -105,4 +120,5 @@ public class BajaTransferencia extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
 }

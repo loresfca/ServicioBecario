@@ -26,7 +26,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:text="casa.ccm@servicios.mx\nURL de CASA"
+        android:text="\nOficinas 5, primer piso \nLunes a Viernes \n8:00 a 19:00 hrs\n54832020 ext. 1940\ncasa.ccm@servicios.mx\nCASA en linea \nhttp://189.204.89.171/helptecmx/tec/"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
@@ -36,8 +36,7 @@
         android:paddingTop="200dp"
         android:gravity="top|center"
         android:id="@+id/textView33"
-        android:layout_marginTop="37dp"
-        android:layout_below="@+id/textView"
+
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

@@ -21,7 +21,7 @@
             android:textStyle="bold"
             android:gravity="center"
             android:text="Baja Temporal"
-            android:textColor="@android:color/background_dark" />
+            android:textColor="#0000CD" />
 
         <TextView
             android:text="1.Acudir con tu director de carrera o programa\n\n2.Ir a CASA con:\n\ta)Carta explicando motivos de baja con datos completos\n\tb)Copia de identificación oficial del responsable de pago\n\tc)Credencial del alumno
@@ -34,7 +34,22 @@
             android:layout_gravity="top|center"
             android:lines="30"
             android:textSize="17sp"
+            android:textColor="#0000CD"
             android:id="@+id/textView15" />
+        <Button
+            android:text="Regresar"
+            android:id="@+id/back"
+            android:layout_weight="0.29"
+            android:layout_height="wrap_content"
+            android:layout_width="192.5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:fontFamily="sans-serif"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#0000CD"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="10dp"
+            />
 
     </LinearLayout>
 </ScrollView>

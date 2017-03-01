@@ -23,7 +23,10 @@ public class CASA extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, BajasFragment.OnFragmentInteractionListener,
         FichasPagoFragment.OnFragmentInteractionListener, ConstanciasFragment.OnFragmentInteractionListener,
         InglesFragment.OnFragmentInteractionListener, BajaMateria.OnFragmentInteractionListener, BajaPerma.OnFragmentInteractionListener,
-        BajaTemp.OnFragmentInteractionListener,BajaTransferencia.OnFragmentInteractionListener{
+        BajaTemp.OnFragmentInteractionListener,BajaTransferencia.OnFragmentInteractionListener,
+        CardexFragment.OnFragmentInteractionListener, SolicitdExamenFragment.OnFragmentInteractionListener, DatosGeneralesFragment.OnFragmentInteractionListener,
+        SolicitudReingresoFragment.OnFragmentInteractionListener{
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,7 +92,6 @@ public class CASA extends AppCompatActivity
         if (id == R.id.nav_bajas) {
             fragment = new BajasFragment();
             fragmentoSeleccionado = true;
-            
 
         } else if (id == R.id.nav_fichas_pago) {
             fragment = new FichasPagoFragment();
@@ -105,7 +107,43 @@ public class CASA extends AppCompatActivity
             fragmentoSeleccionado = true;
 
         }
+        else if(id == R.id.nav_cardex){
+            fragment = new CardexFragment();
+            fragmentoSeleccionado = true;
+        }
+        else if(id == R.id.nav_sol_examen){
+            fragment = new SolicitdExamenFragment();
+            fragmentoSeleccionado = true;
+        }
+        else if(id == R.id.nav_datos){
+            fragment = new DatosGeneralesFragment();
+            fragmentoSeleccionado = true;
+        }
+        else if(id == R.id.nav_reingreso){
+            fragment = new DatosGeneralesFragment();
+            fragmentoSeleccionado = true;
+        }
+        else if(id == R.id.nav_calis){
+            fragment = new DatosGeneralesFragment();
+            fragmentoSeleccionado = true;
+        }
+        else if(id == R.id.nav_cer){
+            fragment = new DatosGeneralesFragment();
+            fragmentoSeleccionado = true;
+        }
+        else if(id == R.id.nav_per){
+            fragment = new DatosGeneralesFragment();
+            fragmentoSeleccionado = true;
+        }
+        else if(id == R.id.nav_cuotas){
+            fragment = new DatosGeneralesFragment();
+            fragmentoSeleccionado = true;
+        }
+        else if (id == R.id.nav_casa) {
+            fragment = new DatosGeneralesFragment();
+            fragmentoSeleccionado = true;
 
+        }
         if(fragmentoSeleccionado){
             getSupportFragmentManager().beginTransaction().replace(R.id.Contenedor,fragment).commit();
         }

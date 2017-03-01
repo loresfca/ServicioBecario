@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView5"
-            android:textColor="@android:color/background_dark" />
+            android:textColor="#0000CD" />
 
         <TextView
             android:text="1.Acudir con tu director de carrera o programa.\n\n2.Ir a CASA con:\n\ta)Carta explicando motivos
@@ -37,7 +37,22 @@ dejar de ir a clases"
             android:layout_gravity="top|center"
             android:layout_width="match_parent"
             android:layout_height="500dp"
+            android:textColor="#0000CD"
             android:id="@+id/textView11" />
+        <Button
+            android:text="Regresar"
+            android:id="@+id/back"
+            android:layout_weight="0.29"
+            android:layout_height="wrap_content"
+            android:layout_width="192.5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:fontFamily="sans-serif"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#0000CD"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="10dp"
+            />
     </LinearLayout>
     </ScrollView>
 </FrameLayout>

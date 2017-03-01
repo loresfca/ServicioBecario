@@ -2,12 +2,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context="com.ruiz.alex.helloworld.CardexFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <TextView
+                android:text="Cardex"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16" />
+
+            <TextView
+                android:text="\nProceso Cardex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:fontFamily="sans-serif"
+                android:maxLines="30"
+                android:layout_gravity="top|center"
+                android:lines="30"
+                android:textSize="17sp"/>
+            <TextView
+                android:text="Transcript"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18" />
+
+            <TextView
+                android:text="\n Proceso Transcript"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:fontFamily="sans-serif"
+                android:maxLines="30"
+                android:layout_gravity="top|center"
+                android:lines="30"
+                android:textSize="17sp"/>
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>
+
