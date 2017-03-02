@@ -24,7 +24,7 @@
                 android:id="@+id/textView16" />
 
             <TextView
-                android:text="\nProceso Solicitud"
+                android:text="\nProceso Solicitud\nDebes haber cursado "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView17"

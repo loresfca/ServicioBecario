@@ -25,7 +25,7 @@ public class CASA extends AppCompatActivity
         InglesFragment.OnFragmentInteractionListener, BajaMateria.OnFragmentInteractionListener, BajaPerma.OnFragmentInteractionListener,
         BajaTemp.OnFragmentInteractionListener,BajaTransferencia.OnFragmentInteractionListener,
         CardexFragment.OnFragmentInteractionListener, SolicitdExamenFragment.OnFragmentInteractionListener, DatosGeneralesFragment.OnFragmentInteractionListener,
-        SolicitudReingresoFragment.OnFragmentInteractionListener{
+        SolicitudReingresoFragment.OnFragmentInteractionListener,CalificacionesFragment.OnFragmentInteractionListener{
 
 
     @Override
@@ -120,30 +120,29 @@ public class CASA extends AppCompatActivity
             fragmentoSeleccionado = true;
         }
         else if(id == R.id.nav_reingreso){
-            fragment = new DatosGeneralesFragment();
+            fragment = new SolicitudReingresoFragment();
             fragmentoSeleccionado = true;
         }
         else if(id == R.id.nav_calis){
-            fragment = new DatosGeneralesFragment();
+            fragment = new CalificacionesFragment();
             fragmentoSeleccionado = true;
         }
         else if(id == R.id.nav_cer){
-            fragment = new DatosGeneralesFragment();
+            fragment = new CertificadoParcialFragment();
             fragmentoSeleccionado = true;
         }
         else if(id == R.id.nav_per){
-            fragment = new DatosGeneralesFragment();
+            fragment = new PermisosFragment();
             fragmentoSeleccionado = true;
         }
         else if(id == R.id.nav_cuotas){
-            fragment = new DatosGeneralesFragment();
+            fragment = new CuoatasFragment();
             fragmentoSeleccionado = true;
         }
-        else if (id == R.id.nav_casa) {
-            fragment = new DatosGeneralesFragment();
-            fragmentoSeleccionado = true;
-
-        }
+        //else if (id == R.id.nav_casa) {
+        //    fragment = new C;
+        //    fragmentoSeleccionado = true;
+        //}
         if(fragmentoSeleccionado){
             getSupportFragmentManager().beginTransaction().replace(R.id.Contenedor,fragment).commit();
         }

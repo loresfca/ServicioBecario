@@ -5,9 +5,54 @@
     tools:context="com.ruiz.alex.helloworld.CalificacionesFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="396dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Consulta de calificaciones"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="\nPuedes consultar tus calificaciones a través del Portal para Alumnos.\nTus calificaciones estarán publicadas cuatro días después del término de los exámenes parciales y tres días para tus exámenes finales."
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:fontFamily="sans-serif"
+                android:maxLines="30"
+                android:layout_gravity="top|center"
+                android:lines="50"
+                android:textSize="17sp"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:text="Historial académico (Tarjeta Plan)"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="\nLa Tarjeta Plan (Historia Académica) contiene toda la información de tu vida académica por lo que es importante que sepas interpretarla.\nDebes revisar tus calificaciones y el promedio obtenido, así como tu estatus académico al cierre de cada semestre. Podrás imprimirla a través del Portal para Alumnos.\nSi tienes alguna corrección debes acudir con tu Director de Carrera o de Programa para solicitar dicha modificación."
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:fontFamily="sans-serif"
+                android:maxLines="30"
+                android:layout_gravity="top|center"
+                android:lines="50"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>
