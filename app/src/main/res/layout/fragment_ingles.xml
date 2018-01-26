@@ -18,59 +18,100 @@
                     >
 
                     <TextView
-                        android:text="Agendar examen inglés"
-                        android:layout_width="match_parent"
+                        android:text="Agendar examen TOEFL/BULATS"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                         android:layout_height="wrap_content"
-                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
                         android:fontFamily="sans-serif"
                         android:textSize="20sp"
                         android:textStyle="bold"
-                        android:gravity="center"
-                        android:textColor="@android:color/background_dark" />
+                        android:textColor="#0000CD"
+                        android:gravity="top|center"
+                        />
 
                     <TextView
-                        android:text="En línea"
+                        android:text="En línea\n"
                         android:layout_width="match_parent"
                         android:fontFamily="sans-serif"
+                        android:layout_gravity="center"
+                        android:gravity="top|center"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:gravity="left"
-                        android:layout_height="44dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0000CD"
                         android:id="@+id/textView6"
                         android:paddingTop="10dp" />
 
                     <TextView
-                        android:text="1.Revisar fechas de examen en tu agenda académica\n2.Ingresar al sistema de trámites en línea\n3.Solicitar tu examen indicando la fecha y motivo del examen.\n4.Recibir confirmación de disponibilidad de examen.\n5.Imprimir ficha de pago y realizar el pago. (El costo del examen es $600.00).\n6.Concluye tu pedido en el sistem de trámites en línea, adjuntando tu ficha de pago.\n7.Recibir confirmación con el salón y la hora en donde deberás presentarte para aplicar tu examen.\n8.Presentarte 10 min antes del examen con tu credencial y ficha de pago original."
+                        android:text="1.Revisar fechas de examen en tu agenda académica\n\n2.Ingresar al sistema de trámites en línea\n\n3.Solicitar tu examen indicando la fecha y motivo del examen.\n\n4.Recibir confirmación de disponibilidad de examen."
                         android:layout_width="match_parent"
                         android:fontFamily="sans-serif"
-                        android:maxLines="20"
-                        android:lines="20"
+                        android:layout_gravity="center_vertical|right"
                         android:textSize="18sp"
-                        android:layout_height="355dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0000CD"
                         android:id="@+id/textView8"
-                        android:paddingTop="0dp" />
+                       />
+                    <TextView
+                        android:text="\n5.Imprimir ficha de pago y realizar el pago. (El costo del examen es $600.00).\n"
+                        android:layout_width="match_parent"
+                        android:fontFamily="sans-serif"
+                        android:layout_gravity="center_vertical|right"
+                        android:textSize="18sp"
+                        android:textColor="#00A0FF"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ficha2" />
+                    <TextView
+                        android:text="6.Concluye tu pedido en el sistem de trámites en línea, adjuntando tu ficha de pago.\n\n7.Recibir confirmación con el salón y la hora en donde deberás presentarte para aplicar tu examen.\n8.Presentarte 10 min antes del examen con tu credencial y ficha de pago original.."
+                        android:layout_width="match_parent"
+                        android:fontFamily="sans-serif"
+                        android:layout_gravity="center_vertical|right"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0000CD"
+                        android:id="@+id/textView13" />
 
                     <TextView
-                        android:text="Presencial"
+                        android:text="Presencial\n"
                         android:layout_width="match_parent"
                         android:fontFamily="sans-serif"
+                        android:layout_gravity="center"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:gravity="left"
-                        android:layout_height="44dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="top|center"
+                        android:textColor="#0000CD"
                         android:id="@+id/textView9"
+                        android:textStyle="bold"
                         android:paddingTop="10dp" />
 
                     <TextView
-                        android:text="1.Revisar las fechas de examen en tu agenda académica.\n2.Solicitar tu examen de manera presencial en CASA, indicando la fecha y motivo del examen.\n3.Recibir confirmación de disponibilidad de examen.\n4.Imprimir ficha de pago y realizar el pago. (El costo del examen es $600.00)\n5.Acudir a CASA para finalizar el trámite. (El Ejecutivo de Atención te indicará el salón y la hora en donde deberás presentarte para aplicar tu examen).
-\n6.Presentarte 10 min antes del examen con tu credencial y ficha de pago original."
+                        android:text="1.Revisar las fechas de examen en tu agenda académica.\n\n2.Solicitar tu examen de manera presencial en CASA, indicando la fecha y motivo del examen.\n\n3.Recibir confirmación de disponibilidad de examen."
                         android:layout_width="match_parent"
                         android:fontFamily="sans-serif"
-                        android:maxLines="20"
-                        android:lines="20"
+                        android:layout_gravity="center_vertical|right"
                         android:textSize="18sp"
-                        android:layout_height="355dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0000CD"
                         android:id="@+id/textView10" />
+                    <TextView
+                        android:text="\n4.Imprimir ficha de pago y realizar el pago. (El costo del examen es $600.00).\n"
+                        android:layout_width="match_parent"
+                        android:fontFamily="sans-serif"
+                        android:layout_gravity="center_vertical|right"
+                        android:textSize="18sp"
+                        android:textColor="#00A0FF"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ficha" />
+                    <TextView
+                        android:text="5.Acudir a CASA para finalizar el trámite. (El Ejecutivo de Atención te indicará el salón y la hora en donde deberás presentarte para aplicar tu examen).
+                    \n\n6.Presentarte 10 min antes del examen con tu credencial y ficha de pago original."
+                        android:layout_width="match_parent"
+                        android:fontFamily="sans-serif"
+                        android:layout_gravity="center_vertical|right"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0000CD"
+                        android:id="@+id/textView12" />
                 </LinearLayout>
             </ScrollView>
 

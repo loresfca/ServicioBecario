@@ -16,23 +16,64 @@
 
             <TextView
                 android:text="Solicitud de reingreso"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:gravity="center"
+                android:textColor="#0000CD"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:gravity="top|center"/>
 
             <TextView
-                android:text="\nSi no estuviste inscrito el semestre anterior, debes presentarte en el Centro de Atención para Alumnos, con una carta firmada por el responsable del pago de tus colegiaturas\nContenido de la carta:\n1.Nombre del alumno y matrícula\n2.Fecha en que se solicita el reingreso\n3.Programa académico al que regresará a estudiar\n4.Periodo para el que solicita reingreso (enero-mayo, agosto-diciembre o Verano)\n5.Teléfono y dirección del alumno\n6.Firma del tutor (responsable del pago de colegiaturas)\nLa carta debe venir acompañada de la copia de identificación oficial vigente (IFE o pasaporte) de quien la firma.\nUna vez procesada tu solicitud de reingreso, estarás incluido para las inscripciones vía remota. Espera un correo electrónico a tu cuenta institucional en el que te indicarán tu horario de inscripción.\n*Si entregaste tu credencial al momento de realizar la baja temporal, se te entregará la misma, el segundo día de clases en el Centro de Atención para Alumnos. El primer día puedes acceder al campus al mostrar tu horario impreso.\n*Si al darte de baja retiraste tus documentos originales, debes entregarlos en el Centro de Atención para Alumnos el mismo día que entregues tu carta de reingreso.\n*Se te recomienda realizar la solicitud de reingreso con anticipación, para que estés incluido en las inscripciones remotas, de no ser así tu inscripción se realizará presencialmente dentro de las instalaciones del campus y ésta puede tener un cargo extra por considerarse extemporánea. El pago de la colegiatura debe realizarse antes de tu turno de inscripción."
+                android:text="\nSi no estuviste inscrito el semestre anterior debes presentarte en el Centro de Atención para Alumnos con una carta firmada por el responsable del pago de tus colegiaturas.\nContenido de la carta:"
                 android:layout_width="match_parent"
-                android:layout_height="832dp"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:fontFamily="sans-serif"
-                android:maxLines="30"
-                android:layout_gravity="top|center"
-                android:lines="50"
-                android:textSize="17sp"
-                android:id="@+id/textView" />
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD" />
+            <TextView
+                android:text="\n1.Nombre del alumno y matrícula\n\n2.Fecha en que se solicita el reingreso\n\n3.Programa académico al que regresará a estudiar\n\n4.Periodo para el que solicita reingreso (enero-mayo, agosto-diciembre o Verano)\n\n5.Teléfono y dirección del alumno\n\n6.Firma del tutor (responsable del pago de colegiaturas)\n\nLa carta debe venir acompañada de la copia de identificación oficial vigente (IFE o pasaporte) de quien la firma.\n"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"/>
+
+            <TextView
+                android:text="Una vez procesada tu solicitud de reingreso, estarás incluido para las inscripciones vía remota. Espera un correo electrónico a tu cuenta institucional en el que te indicarán tu horario de inscripción."
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="\nInformación adicional"
+                android:layout_gravity="center_vertical|right"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="top|center" />
+
+            <TextView
+                android:text="\n*Si entregaste tu credencial al momento de realizar la baja temporal, se te entregará la misma, el segundo día de clases en el Centro de Atención para Alumnos. El primer día puedes acceder al campus al mostrar tu horario impreso.\n\n*Si al darte de baja retiraste tus documentos originales, debes entregarlos en el Centro de Atención para Alumnos el mismo día que entregues tu carta de reingreso.\n\n*Se te recomienda realizar la solicitud de reingreso con anticipación, para que estés incluido en las inscripciones remotas, de no ser así tu inscripción se realizará presencialmente dentro de las instalaciones del campus y ésta puede tener un cargo extra por considerarse extemporánea. El pago de la colegiatura debe realizarse antes de tu turno de inscripción."
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"/>
         </LinearLayout>
     </ScrollView>
 

@@ -7,22 +7,34 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:text="Datos generales del alumno"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:gravity="center"
+        android:textColor="#0000CD"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
+        android:gravity="top|center"/>
     <TextView
-        android:text="\nConsulta y corrección de datos generales del alumno\nSi deseas hacer una corrección de tus datos debes:\n1.Descargar el formato, llenarlo y firmarlo por la persona responsable de pagos registrada en tu solicitud de admisión. Si eres alumn@ del nivel preparatoria, el formato también deberá estar firmado por quien ejerce la patria potestad.\nEntrega el formato y copia de comprobante de domicilio en el Centro de Atención para Alumnos,o bien, puedes enviarlo a través del sistema de atención en línea, agregando el archivo como attach"
+        android:text="\n\nSi deseas hacer una corrección de tus datos debes:\n"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:fontFamily="sans-serif"
-        android:maxLines="30"
         android:layout_gravity="top|center"
-        android:lines="30"
-        android:textSize="17sp"
-        android:id="@+id/textView" />
+        android:textColor="#0000CD"
+        android:textSize="18sp"
+        android:id="@+id/textView"/>
+
+    <TextView
+        android:text="1.Descargar el formato, llenarlo y firmarlo por la persona responsable de pagos registrada en tu solicitud de admisión. Si eres alumn@ del nivel preparatoria, el formato también deberá estar firmado por quien ejerce la patria potestad.\n\n2.Entrega el formato y copia de comprobante de domicilio en el Centro de Atención para Alumnos,o bien, puedes enviarlo a través del sistema de atención en línea, agregando el archivo como attach"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center_vertical|right"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#0000CD"/>
 
 </FrameLayout>

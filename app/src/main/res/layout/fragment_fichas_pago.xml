@@ -35,22 +35,27 @@
                     android:fontFamily="sans-serif"
                     android:textSize="20sp"
                     android:textStyle="bold"
+                    android:textColor="#0000CD"
                     android:gravity="top|center" />
 
                 <TextView
-                    android:text=" 1.Ingresa a MiTec."
+                    android:text="\n1.Ingresa a MiTec."
                     android:layout_width="match_parent"
                     android:fontFamily="sans-serif"
-                    android:maxLines="20"
-                    android:lines="20"
+                    android:layout_gravity="center_vertical|right"
                     android:textSize="18sp"
-                    android:layout_height="34dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView8" />
 
                 <TextView
-                    android:text="2.Da clic en Tienda Virtual."
+                    android:text="\n2.Da clic en Tienda Virtual."
                     android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center_vertical|right"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView18" />
 
                 <ImageView
@@ -60,9 +65,13 @@
                     android:id="@+id/imageView3" />
 
                 <TextView
-                    android:text="3.Busca el concepto en la barra superior\n y presiona 'buscar'."
+                    android:text="\n3.Busca el concepto en la barra superior y presiona 'buscar'."
                     android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center_vertical|right"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView20" />
 
                 <ImageView
@@ -74,7 +83,11 @@
                 <TextView
                     android:text="4.Presiona agregar al carrito."
                     android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center_vertical|right"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView21" />
 
                 <ImageView
@@ -86,7 +99,11 @@
                 <TextView
                     android:text="5. Ingresa a tu carrito"
                     android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center_vertical|right"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView23" />
 
                 <ImageView
@@ -98,7 +115,11 @@
                 <TextView
                     android:text="6. Selecciona la forma de pago y presiona comprar."
                     android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center_vertical|right"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView22" />
 
                 <ImageView

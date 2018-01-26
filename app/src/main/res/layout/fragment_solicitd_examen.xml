@@ -16,24 +16,65 @@
 
             <TextView
                 android:text="Solicitud de examen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:gravity="center"
+                android:textColor="#0000CD"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView16" />
+                android:gravity="top|center"/>
 
             <TextView
-                android:text="\nProceso Solicitud\nDebes haber cursado "
+                android:text="Debes cumplir con los siguientes puntos para solicitar tu examen de última materia.\n"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView17"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:fontFamily="sans-serif"
-                android:maxLines="30"
-                android:layout_gravity="top|center"
-                android:lines="30"
-                android:textSize="17sp"/>
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"/>
+            <TextView
+                android:text="1.Haber cursado y reprobado la materia en semestres anteriores\n
+\n2.Solicitar tu examen en el Centro de Atención para Alumnos\n
+\n3.Posteriormente recibirás la notificación en tu correo institucional en el que te indicaremos si se te autoriza o no presentar el examen.\n "
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"/>
+            <TextView
+                android:text="Si se autoriza la presentación del examen, debes realizar el pago con la Ficha de pagos varios.\n"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:textColor="#00A0FF"
+                android:layout_height="wrap_content"
+                android:id="@+id/ficha" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Información adicional"
+                android:layout_gravity="center_vertical|right"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="top|center" />
+            <TextView
+                android:text="\n*El costo del examen es de $780.00 para preparatoria y $1,040.00 para profesional.\n
+*El día del examen debes presentar tu comprobante de pago y tu credencial de alumno vigente."
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"
+                android:id="@+id/textView12" />
         </LinearLayout>
     </ScrollView>
 </FrameLayout>

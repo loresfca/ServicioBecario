@@ -1,21 +1,10 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ruiz.alex.helloworld.ConstanciasFragment"
-    android:background="#fff">
-
-
-    <FrameLayout
-        android:background="@android:color/background_light"
-        android:paddingBottom="10dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingTop="10dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    android:background="#fff"
+    tools:context="com.ruiz.alex.helloworld.ConstanciasFragment">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -34,92 +23,140 @@
                     android:fontFamily="sans-serif"
                     android:textSize="20sp"
                     android:textStyle="bold"
+                    android:textColor="#0000CD"
                     android:gravity="top|center" />
 
                 <TextView
-                    android:text="1.Verificar el tipo de constancia que necesitas."
+                    android:text="1.Verificar el tipo de constancia que necesitas.\n"
                     android:layout_width="match_parent"
                     android:fontFamily="sans-serif"
-                    android:maxLines="20"
-                    android:lines="20"
+                    android:layout_gravity="center_vertical|right"
                     android:textSize="18sp"
-                    android:layout_height="44dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView8" />
                 <TextView
-                    android:text="2. Imprimir tu ficha de pago "
+                    android:text="2. Imprimir tu ficha de pago y realizar el pago correspondiente ($25.00).\n"
                     android:layout_width="match_parent"
                     android:fontFamily="sans-serif"
-                    android:maxLines="20"
-                    android:lines="20"
+                    android:layout_gravity="center_vertical|right"
                     android:textSize="18sp"
-                    android:layout_height="44dp"
+                    android:textColor="#00A0FF"
+                    android:layout_height="wrap_content"
                     android:id="@+id/ficha" />
-                <TextView
-                    android:text="y realizar el pago correspondiente ($25.00)."
-                    android:layout_width="match_parent"
-                    android:fontFamily="sans-serif"
-                    android:maxLines="20"
-                    android:lines="20"
-                    android:textSize="18sp"
-                    android:layout_height="44dp"
-                    android:id="@+id/textView9" />
 
                 <TextView
-                    android:text="3. Solicitar tu constancia ya sea a través del sistema en línea (se entrega en 2 o 3 días hábiles después de recibir la confirmación de solicitud) o presencialmente (se entrega inmediatamente)."
+                    android:text="3. Solicitar tu constancia ya sea a través del sistema en línea (se entrega en 2 o 3 días hábiles después de recibir la confirmación de solicitud) o presencialmente (se entrega inmediatamente).\n"
                     android:layout_width="match_parent"
                     android:fontFamily="sans-serif"
-                    android:maxLines="20"
-                    android:lines="20"
+                    android:layout_gravity="center_vertical|right"
                     android:textSize="18sp"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView10" />
                 <TextView
-                    android:text="4. Recoger tu constancia en CASA, presentando la ficha de pago original y credencial."
+                    android:text="4. Recoger tu constancia en CASA, presentando la ficha de pago original y credencial.\n"
                     android:layout_width="match_parent"
                     android:fontFamily="sans-serif"
-                    android:maxLines="20"
-                    android:lines="20"
                     android:textSize="18sp"
-                    android:layout_height="67dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView11" />
                 <TextView
                     android:layout_width="match_parent"
                     android:text="Información adicional"
+                    android:layout_gravity="center_vertical|right"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                     android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:fontFamily="sans-serif"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:gravity="top|center" />
                 <TextView
-                    android:text="En caso de que no puedas recoger la constancia de manera personal, deberás enviar una carta poder con la persona que recogerá tu constancia y copia de identificación oficial (IFE) de ambos."
+                    android:text="\nEn caso de que no puedas recoger la constancia de manera personal, deberás enviar una carta poder con la persona que recogerá tu constancia y copia de identificación oficial (IFE) de ambos."
                     android:layout_width="match_parent"
                     android:fontFamily="sans-serif"
-                    android:maxLines="20"
-                    android:lines="20"
+                    android:layout_gravity="center_vertical|right"
                     android:textSize="18sp"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView12" />
                 <TextView
-                    android:text="En caso solicitar una constancia de trámites ante la SEP, deberás esperar respuesta del Ejecutivo de Atención antes de realizar el pago correspondiente a la constancia."
+                    android:text="\nEn caso solicitar una constancia de trámites ante la SEP, deberás esperar respuesta del Ejecutivo de Atención antes de realizar el pago correspondiente a la constancia."
                     android:layout_width="match_parent"
                     android:fontFamily="sans-serif"
-                    android:maxLines="20"
-                    android:lines="20"
+                    android:layout_gravity="center_vertical|right"
                     android:textSize="18sp"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView13" />
                 <TextView
-                    android:text="Si lo que requieres es una carta de postulación de Santander, ésta no tiene costo, únicamente deberás solicitarla directamente en el Centro de Atención para Alumnos."
+                    android:text="\nSi lo que requieres es una carta de postulación de Santander, ésta no tiene costo, únicamente deberás solicitarla directamente en el Centro de Atención para Alumnos."
                     android:layout_width="match_parent"
                     android:fontFamily="sans-serif"
-                    android:maxLines="20"
-                    android:lines="20"
+                    android:layout_gravity="center_vertical|right"
                     android:textSize="18sp"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
                     android:id="@+id/textView14" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Ejemplos"
+                    android:layout_gravity="center_vertical|right"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="top|center" />
+                <TextView
+                    android:text="Profesional"
+                    android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center_vertical|right"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
+                    android:id="@+id/textView23" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/prof"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="Preparatoria"
+                    android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center_vertical|right"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
+                    android:id="@+id/textView24" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/pre"
+                    android:id="@+id/imageView4" />
+                <TextView
+                    android:text="Posgrado"
+                    android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center_vertical|right"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000CD"
+                    android:id="@+id/textView22" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/pos"
+                    android:id="@+id/imageView7" />
             </LinearLayout>
         </ScrollView>
 
     </FrameLayout>
-</FrameLayout>

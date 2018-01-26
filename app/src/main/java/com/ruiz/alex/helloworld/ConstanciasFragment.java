@@ -1,16 +1,22 @@
 package com.ruiz.alex.helloworld;
 
+import android.app.FragmentTransaction;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.test.suitebuilder.TestMethod;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
+
+
+import static java.lang.System.console;
 
 
 /**
@@ -21,17 +27,24 @@ import android.widget.TextView;
  * Use the {@link ConstanciasFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ConstanciasFragment extends Fragment implements View.OnClickListener {
+public class ConstanciasFragment extends Fragment implements View.OnClickListener{
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+    private View view;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private TextView back;
+    private TextView button;
+
+
     private OnFragmentInteractionListener mListener;
+
+    public ListView listViewTramites;
+    String[] tramites = {"Bajas","Generación fichas de pago"};
+
 
     public ConstanciasFragment() {
         // Required empty public constructor
@@ -43,7 +56,7 @@ public class ConstanciasFragment extends Fragment implements View.OnClickListene
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment BajaMateria.
+     * @return A new instance of fragment BajasFragment.
      */
     // TODO: Rename and change types and number of parameters
     public static ConstanciasFragment newInstance(String param1, String param2) {
@@ -62,6 +75,8 @@ public class ConstanciasFragment extends Fragment implements View.OnClickListene
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        //listViewTramites = (ListView) listViewTramites.findViewById(R.id.listaTramites)
+        //ArrayAdapter<String> arrayAdapterTramites = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,tramites)
     }
 
     @Override
@@ -69,10 +84,10 @@ public class ConstanciasFragment extends Fragment implements View.OnClickListene
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_constancias, container, false);
+        button= (TextView) view.findViewById(R.id.ficha);
+        button.setClickable(true);
 
-        back= (TextView) view.findViewById(R.id.ficha);
-        back.setClickable(true);
-        back.setOnClickListener(this);
+        button.setOnClickListener(this);
         return view;
     }
 
@@ -85,6 +100,7 @@ public class ConstanciasFragment extends Fragment implements View.OnClickListene
 
     @Override
     public void onAttach(Context context) {
+        System.out.println(context.getClass());
         super.onAttach(context);
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
@@ -99,16 +115,22 @@ public class ConstanciasFragment extends Fragment implements View.OnClickListene
         super.onDetach();
         mListener = null;
     }
+
+    @Override
     public void onClick(View v) {
         int id=v.getId();
-        back.setVisibility(View.INVISIBLE);
-        Fragment fragment = new FichasPagoFragment();
-        FragmentManager fragmentManager = getFragmentManager();
-        fragmentManager.beginTransaction()
-                .replace(R.id.content_frame, fragment)
-                .commit();
-
+        button.setVisibility(View.INVISIBLE);
+        if (id==R.id.ficha) {
+            Fragment fragment = new FichasPagoFragment();
+            FragmentManager fragmentManager = getFragmentManager();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.Contenedor, fragment)
+                    .commit();
+        }
     }
+
+
+
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
@@ -123,5 +145,10 @@ public class ConstanciasFragment extends Fragment implements View.OnClickListene
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+
+
+
+
 
 }

@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -17,7 +19,7 @@ import android.view.ViewGroup;
  * Use the {@link InglesFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class InglesFragment extends Fragment {
+public class InglesFragment extends Fragment implements View.OnClickListener{
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -26,7 +28,8 @@ public class InglesFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-
+    private TextView button;
+    private TextView button2;
     private OnFragmentInteractionListener mListener;
 
     public InglesFragment() {
@@ -64,7 +67,16 @@ public class InglesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ingles, container, false);
+        View view= inflater.inflate(R.layout.fragment_ingles, container, false);
+        button= (TextView) view.findViewById(R.id.ficha);
+        button.setClickable(true);
+
+        button.setOnClickListener(this);
+        button2= (TextView) view.findViewById(R.id.ficha2);
+        button2.setClickable(true);
+
+        button2.setOnClickListener(this);
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -89,6 +101,18 @@ public class InglesFragment extends Fragment {
     public void onDetach() {
         super.onDetach();
         mListener = null;
+    }
+
+    @Override
+    public void onClick(View view) {
+        int id=view.getId();
+        button.setVisibility(View.INVISIBLE);
+        button2.setVisibility(View.INVISIBLE);
+            Fragment fragment = new FichasPagoFragment();
+            FragmentManager fragmentManager = getFragmentManager();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.Contenedor, fragment)
+                    .commit();
     }
 
     /**

@@ -5,9 +5,99 @@
     tools:context="com.ruiz.alex.helloworld.CertificadoParcialFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Certificado parcial"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0000CD"
+                android:layout_width="match_parent"
+                android:gravity="top|center"/>
+
+            <TextView
+                android:text="\nPara solicitar este certificado debes ser alumno graduado o estar dado de baja definitiva. Para realizar el trámite necesitas:"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD" />
+            <TextView
+                android:text="1. Imprimir tu ficha de pago y realizar el pago correspondiente ($25.00).\n"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:textColor="#00A0FF"
+                android:layout_height="wrap_content"
+                android:id="@+id/ficha" />
+            <TextView
+                android:text="2.Acudir a CASA con tu ficha de pago original para solicitar tu Certificado. \n\n
+3. Se te informará sobre el tiempo estimado de entrega que dependerá de los siguientes casos:"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"/>
+            <TextView
+                android:text="Caso 1:\n
+1. No tener Certificado parcial emitido por CCM\n
+2. Presentar documentos originales.\n
+3. No tener calificaciones pendientes.\n
+4. Presentar pago de certificado parcial legalizado.\n
+*La fecha de entrega será de, aproximadamente, 60 días hábiles posteriores a la fecha de entrega de los requisitos.\n\nCaso 2:\n
+1. Contar con un Certificado parcial sin legalizar, emitido por CCM.\n
+2. Presentar documentos originales (acta de nacimiento, certificado de secundaria y certificado de bachillerato)\n
+3. No tener calificaciones pendientes.\n
+4. Presentar pago de la legalización.\n
+*La fecha de entrega será 15 días hábiles posteriores a la fecha de entrega de los requisitos."
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="\nConsideraciones:"
+                android:layout_gravity="center_vertical|right"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="top|center" />
+            <TextView
+                android:text="\nEs indispensable presentar documentos originales (acta de nacimiento, certificado de secundaria, certificado de preparatoria y copia de tu CURP) para la realización de la legalización.
+\nEs muy importante hacer con anticipación estas solicitudes ya que la SEP maneja la calendarización puntualmente.
+\nTodo certificado en español expedido por el Tecnológico de Monterrey debe estar legalizado por la SEP para cualquier trámite de revalidación o inscripción en otra institución.
+\nDebes estar al pendiente del correo electrónico que proporcionaste al hacer la petición del documento, ya que a esta cuenta te llegará un aviso con la fecha en que podrás pasar a recoger tu documentación
+"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD"/>
+        </LinearLayout>
+
+    </ScrollView>
 
 </FrameLayout>

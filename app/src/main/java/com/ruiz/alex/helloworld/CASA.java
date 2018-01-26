@@ -25,7 +25,9 @@ public class CASA extends AppCompatActivity
         InglesFragment.OnFragmentInteractionListener, BajaMateria.OnFragmentInteractionListener, BajaPerma.OnFragmentInteractionListener,
         BajaTemp.OnFragmentInteractionListener,BajaTransferencia.OnFragmentInteractionListener,
         CardexFragment.OnFragmentInteractionListener, SolicitdExamenFragment.OnFragmentInteractionListener, DatosGeneralesFragment.OnFragmentInteractionListener,
-        SolicitudReingresoFragment.OnFragmentInteractionListener,CalificacionesFragment.OnFragmentInteractionListener{
+        SolicitudReingresoFragment.OnFragmentInteractionListener,CalificacionesFragment.OnFragmentInteractionListener, CertificadoParcialFragment.OnFragmentInteractionListener,
+        PermisosFragment.OnFragmentInteractionListener, CuoatasFragment.OnFragmentInteractionListener
+        {
 
 
     @Override
@@ -135,14 +137,12 @@ public class CASA extends AppCompatActivity
             fragment = new PermisosFragment();
             fragmentoSeleccionado = true;
         }
-        else if(id == R.id.nav_cuotas){
+        else if (id == R.id.nav_casa) {
+            view.setVisibility(View.VISIBLE);
+            view1.setVisibility(View.VISIBLE);
             fragment = new CuoatasFragment();
             fragmentoSeleccionado = true;
         }
-        //else if (id == R.id.nav_casa) {
-        //    fragment = new C;
-        //    fragmentoSeleccionado = true;
-        //}
         if(fragmentoSeleccionado){
             getSupportFragmentManager().beginTransaction().replace(R.id.Contenedor,fragment).commit();
         }

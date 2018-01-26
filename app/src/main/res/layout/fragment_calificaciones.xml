@@ -16,42 +16,43 @@
 
             <TextView
                 android:text="Consulta de calificaciones"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:gravity="center"
+                android:textColor="#0000CD"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:gravity="top|center"/>
 
             <TextView
                 android:text="\nPuedes consultar tus calificaciones a través del Portal para Alumnos.\nTus calificaciones estarán publicadas cuatro días después del término de los exámenes parciales y tres días para tus exámenes finales."
                 android:layout_width="match_parent"
-                android:layout_height="142dp"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:fontFamily="sans-serif"
-                android:maxLines="30"
-                android:layout_gravity="top|center"
-                android:lines="50"
-                android:textSize="17sp"
-                android:id="@+id/textView" />
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD" />
 
             <TextView
-                android:text="Historial académico (Tarjeta Plan)"
+                android:text="\nHistorial académico (Tarjeta Plan)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:gravity="center"
+                android:textColor="#0000CD"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:gravity="top|center"/>
 
             <TextView
                 android:text="\nLa Tarjeta Plan (Historia Académica) contiene toda la información de tu vida académica por lo que es importante que sepas interpretarla.\nDebes revisar tus calificaciones y el promedio obtenido, así como tu estatus académico al cierre de cada semestre. Podrás imprimirla a través del Portal para Alumnos.\nSi tienes alguna corrección debes acudir con tu Director de Carrera o de Programa para solicitar dicha modificación."
                 android:layout_width="match_parent"
-                android:layout_height="212dp"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:fontFamily="sans-serif"
-                android:maxLines="30"
-                android:layout_gravity="top|center"
-                android:lines="50"
-                android:textSize="17sp" />
+                android:layout_gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:textColor="#0000CD" />
         </LinearLayout>
     </ScrollView>
 

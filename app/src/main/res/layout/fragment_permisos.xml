@@ -5,9 +5,134 @@
     tools:context="com.ruiz.alex.helloworld.PermisosFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:text="Permisos y transferencias"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0000CD"
+            android:layout_width="match_parent"
+            android:gravity="top|center"/>
+
+        <TextView
+            android:text="\nPermiso para estudiar verano en otro campus del TEC:"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000CD" />
+        <TextView
+            android:text="Llena tu solicitud aquí y recibirás respuesta por parte de tu Director de Carrera autorizando las materias a cursar.\n"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="18sp"
+            android:textColor="#00A0FF"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ficha" />
+        <TextView
+            android:text="Si deseas estudiar en CCM el periodo de verano"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000CD"/>
+        <TextView
+            android:text="No es necesario que tramites una transferencia. Debes solicitar el permiso InterCampus en tu campus origen y cuando se autorice podrás realizar tu inscripción en CCM. "
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000CD"/>
+        <TextView
+            android:text="\nPermiso para cursar semestre en otro Campus:"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000CD"/>
+        <TextView
+            android:text="Solamente se puede otorgar este permiso a alumnos de 8º ó 9º semestre.
+Haz clic aquí para solicitar el permiso."
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000CD"/>
+        <TextView
+            android:text="\nTransferencia a otro campus:\nLa transferencia a otro campus implica que te des de baja del Campus Ciudad de México y entregues toda tu documentación académica en el campus de tu elección."
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000CD"/>
+        <TextView
+            android:text="\n1. Acude con tu Director de Carrera y presenta los motivos del cambio.\n
+\n2. Presentate en CASA y entrega una carta de autorización firmada por el responsable del pago de colegiaturas, indicando el campus al que te transfieres y la razón de la transferencia. "
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000CD"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="\nConsideraciones:"
+            android:layout_gravity="center_vertical|right"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:layout_height="wrap_content"
+            android:textColor="#0000CD"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="top|center" />
+        <TextView
+            android:text="\nConsulta a tu director de carrera para evaluar la opción de solicitar un Permiso Intercampus.
+\n\nAsegura la continuidad de tus estudios revisando la oferta de carreras y materias del campus destino
+\n\nConcluye tus exámenes finales y verifica que ya tienes reportadas todas tus calificaciones finales en el Portal de Alumnos
+\n\nVerifica que tu Tarjeta Plan no tenga algún error
+\n\nRevisa en el Portal de Alumnos que no tengas adeudos en las áreas de Biblioteca, Deportes o Tesorería
+\n\nNo podrás solicitar transferencia si eres candidato a graduar, o estás cursando el penúltimo o último semestre.
+\n\nEn caso de que tu estatus académico no sea de Alumno regular, es indispensable que te contactes con el campus destino para confirmar que serás recibido como transferencia.
+\n\nUna vez iniciado el proceso y te hayas presentado en el Centro de Atención para Alumnos, se verificarán oficialmente tus adeudos con Tesorería, Biblioteca y Deportes.
+\nAl cerrar en su totalidad la baja por transferencia, transcurrirán aproximadamente dos días para que te entreguemos un sobre sellado con tus documentos originales.
+\n\nEl sobre deberá permanecer sellado y llevarse personalmente al campus destino, donde sólo personal de Servicios Escolares tiene autorización de abrirlo. Te recomendamos que lo lleves antes del inicio del ciclo escolar.
+\n\nEs importante verificar los procedimientos de admisión que debes realizar en el campus al que te transfieres, como llenado de solicitud de admisión, etc. Este trámite de admisión correrá por tu cuenta.
+"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000CD"/>
+    </LinearLayout>
+</ScrollView>
 </FrameLayout>

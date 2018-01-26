@@ -2,139 +2,121 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_a47657215d83672f849b5cf69ad466560f25ab5d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_ce1c7b5e0924e36f6c88bfa762e48a0f5586ca88/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cb6b0e95a394766d8efa54ca62b312151c64bd0d">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_51c4c128721ad264c9119348b5e0b8346c8ee706/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_f38e1cf6b9d52d92d7382a6772a834dba668bce2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_7cec32f64da31446460a2e386073f089756d4b3a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_59ee40f7697d91a38349d98914b66623ec7b05d1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_b39905f427c5689d99be17fce62466ad2098d02f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_737160f8874c03a6be36e0f7cd1435de6d279925/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_f9ecb49a6f5a207de4b5454054f561bc74208b86/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_5f43d265f377c350b3346071ea7bdd765bd81b5f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_6bebfa5ae6d46ae4eff513e9a09b66638264001b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_ee46f4795c926ef6ffc2697635de06474d4d104a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_f7d8db57b1c97047b9eba2b29bddfb86da90eeac/classes.dex" />
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_d49f9b8d50088125b63c1b9757bad762e99d51a5.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="9f6a1f8b3c0318c0823278c9d7639c43cc7887be">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_67bcf54f3ad25f38ac5f174ea96ef4b01753aa71/classes.dex" />
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.1_477cb7410b295a0fd25b55948977a4b79a261822.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_c515c26d1e279e029647f22f2ee904cccff9f374.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_f46dea710e93c676a8692565b519edb6b85a4598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_d19e00abea2ff35810e4766a94a24e9522d84d5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_8cee156b5182e6ca221bc0f27c9144ab78222f42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_40ff9bf88d59f7e8d82b64039f2cf1104f4e59d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_e280945fd6910cf17d432b11c715004c114f6d43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_4326e1c915d03b762cfd4401fea99541c0341dc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_b118ee195a48309062880a66db19752c090d6407.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_beefa387c39c5cd6795aad6b217f3f5068875d67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Carly/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_04282d79bfc1db614bd104f39773b13bb44ebfc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/Volumes/Macintosh HD/Users/Alex/Desktop/Servicio/ServicioBecario/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_6220b57362ceb485e1b3b9ce49844e0f5ef3ccc9/classes.dex" />
+        <dex dex="/Users/Carly/Documents/Tec/Servicio/Servicio/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_af4fbbc6fda9b435e9c0902691f7af6fc34aa585.jar" />
     </item>
 
 </items>
